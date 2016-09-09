@@ -1,0 +1,37 @@
+.main-nav .nav-wrapper, .footer-nav, #folderNav, #categoryNav, .main-nav .folder .folder-child-wrapper ul.folder-child, .footer-nav .folder .folder-child-wrapper ul.folder-child{border-style: none;};
+
+.nav-open .nav-wrapper ul li a, .nav-open-hover .nav-wrapper ul li a, .sqs-style-mode .nav-wrapper ul li a, .always-show-nav .main-nav .nav-wrapper ul li a, .nav-open .nav-wrapper ul li a:visited, .nav-open-hover .nav-wrapper ul li a:visited, .sqs-style-mode .nav-wrapper ul li a:visited, .always-show-nav .main-nav .nav-wrapper ul li a:visited{color:#ffffff}
+
+#content .folder-nav {
+  background-color: #e0caa3;
+}
+
+#header .nav-wrapper {
+-webkit-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.4);
+box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.4);
+}
+
+#header {
+  padding: 20px 0 0;
+}
+
+.info-title-email-wrapper{
+      margin-bottom: 20px;
+}
+
+.site-title .logo{
+  height: 155px;
+}
+
+.logo-image.header-hidden #header .logo-image-title{
+  font-size: 22px;
+}
+
+.logo-image.header-hidden #header{
+  background-color: rgba(230,230,230,.8);
+}
+
+#footer {
+  padding: 25px 75px;
+}
