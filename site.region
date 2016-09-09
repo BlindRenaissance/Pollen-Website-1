@@ -205,7 +205,6 @@
 
       <footer id="footer" class="cf">
         <squarespace:block-field id="footerBlockLeft" columns="1" label="Left Footer Content" />
-        <squarespace:block-field id="footerBlockRight" columns="1" label="Right Footer Content" />
       </footer>
     </div> <!-- end .outer-wrapper -->
 
