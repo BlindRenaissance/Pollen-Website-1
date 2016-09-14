@@ -35,3 +35,55 @@ box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.4);
 #footer {
   padding: 25px 75px;
 }
+
+h2{color:#7aaa6c;}
+
+@media only screen and (max-width: 640px){
+
+  #mobile-navigation .nav-wrapper ul li.folder.dropdown-open ul{
+    margin-top: 10px;
+  }
+
+#mobile-navigation .nav-wrapper ul li.folder ul li {
+  padding: 1em 0 0;
+  background-color: #e0caa3;
+  border-style: solid;
+    border-width: 0 0 1px;
+    border-color: rgba(108, 160, 93, .2);
+}
+
+  #mobile-navigation .nav-wrapper ul li.folder ul li{
+    padding-bottom: 10px;
+  }
+
+  #mobile-navigation .nav-wrapper ul li.folder ul li:first-child{
+    content:'';
+-webkit-box-shadow: inset 0px 6px 8px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: inset 0px 6px 8px -6px rgba(0,0,0,0.4);
+box-shadow: inset 0px 6px 8px -6px rgba(0,0,0,0.9);
+  }
+  #mobile-navigation .nav-wrapper ul li.folder ul li:last-child{
+    content:'';
+-webkit-box-shadow: inset 10px -6px 8px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: inset 0px -6px 8px -6px rgba(0,0,0,0.4);
+box-shadow: inset 0px -6px 8px -6px rgba(0,0,0,0.9);
+  }
+}
+
+/* logo on mobile */
+
+   @media screen and (max-width:640px) {
+   #mobile-header .site-title-wrapper {
+     display:left;
+   }
+   #mobile-header  .site-title {
+     display: none;
+   }
+   #mobile-header {
+     background: url( http://static1.squarespace.com/static/57bb334bd482e951ca17cf46/t/57d345895016e199d1d0fd75/1473463689389/PollenPro-mobileLogo.png );
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:120px;
+     height: 100px
+   }
+ }
