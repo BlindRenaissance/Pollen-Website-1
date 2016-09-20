@@ -78,7 +78,7 @@ box-shadow: inset 0px -6px 8px -6px rgba(0,0,0,0.9);
 
 /* logo on mobile */
 
-   @media screen and (max-width:640px) {
+@media screen and (max-width:640px) {
    #mobile-header .site-title-wrapper {
      display:left;
    }
@@ -98,4 +98,10 @@ box-shadow: inset 0px -6px 8px -6px rgba(0,0,0,0.9);
 
  .logo-image.header-hidden #header {
     background-color: rgba(230,230,230,1);
+}
+
+/* Remove folder nav display */
+
+.folder-nav {
+  display:none;
 }
